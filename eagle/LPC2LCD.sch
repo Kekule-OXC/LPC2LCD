@@ -5582,6 +5582,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TC33X-2-302E.
 <wire x1="55.88" y1="71.12" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <label x="55.88" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="CW"/>
+<wire x1="9.652" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="7.62" y="25.4" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="LAD0" class="0">
 <segment>
@@ -5704,11 +5709,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TC33X-2-302E.
 <segment>
 <wire x1="48.26" y1="8.89" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
 <label x="48.26" y="15.24" size="1.778" layer="95" rot="R90"/>
-<pinref part="R2" gate="G$1" pin="CW"/>
-<wire x1="9.652" y1="25.4" x2="9.652" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="9.652" y1="19.05" x2="48.26" y2="19.05" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="19.05" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="19.05" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="CCW"/>
+<wire x1="48.26" y1="17.78" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="37.592" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="25.4" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="8.89" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
@@ -5843,11 +5849,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TC33X-2-302E.
 <pinref part="IC1" gate="G$1" pin="A3"/>
 <wire x1="38.1" y1="40.64" x2="34.29" y2="40.64" width="0.1524" layer="91"/>
 <label x="34.29" y="40.64" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="CCW"/>
-<wire x1="37.592" y1="25.4" x2="41.91" y2="25.4" width="0.1524" layer="91"/>
-<label x="35.56" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
