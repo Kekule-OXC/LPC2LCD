@@ -9,7 +9,7 @@ This VHDL was writtenby Ryzee119 to replace the CPLD logic on the cheap AladdinX
 The Lattice LC4032V CPLD  is extremely limited, so this is a bare minimum to reduce macro-cell usage to fit onto the CPLD. Therefore it will not support any other functionality.
 
 -   This does not support adjusting the backlight via the dashboard settings.
--   This has very limited contrast control through the dashboard settings. It couldn't even manage an 8-bit PWM signal. For the dashboard settings:  **0%=No Contrast up to 25%=Full Constrast**.  For best results set the contrast to `25%` in the dashboard and use the on board trim pot to set the desired contrast.
+-   This has no contrast control through the dashboard settings. Use the on board trim pot to set the desired contrast.
 
 # Instructions
 
@@ -33,5 +33,5 @@ The Lattice LC4032V CPLD  is extremely limited, so this is a bare minimum to red
     
 8.  Enable  `SmartXX`  LCD in your dashboard.
     
-9.  Set contrast to `25%`  to max out the contrast. Use the trim pot on the top of the board to set the desired contrast
+9.  Use the trim pot on the top of the board to set the desired contrast
 
