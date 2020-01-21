@@ -1,0 +1,50 @@
+ ispLEVER Classic 2.0.00.17.20.15 Fitter Report File 
+Project Name,lpc2lcd
+Project Path,C:\Users\ajvanta\Documents\00-CPLD\LPC2LCD
+Project Fitted on,Tue Jan 21 10:12:33 2020
+
+Pin,Pin_Type,Bank,GLB_Pad,Assigned,I/O_Type,Signal_Type,Signal_Name
+1,TDI,-,,,,,
+2,I_O,0,A5,,,,
+3,I_O,0,A6,*,LVCMOS18,Output,LCD_E
+4,I_O,0,A7,*,LVCMOS18,Output,LCD_DATA_0_
+5,GNDIO0,-,,,,,
+6,VCCIO0,-,,,,,
+7,I_O,0,A8,*,LVCMOS18,Output,LCD_DATA_1_
+8,I_O,0,A9,*,LVCMOS18,Output,LCD_DATA_2_
+9,I_O,0,A10,*,LVCMOS18,Output,LCD_DATA_3_
+10,TCK,-,,,,,
+11,VCC,-,,,,,
+12,GND,-,,,,,
+13,I_O,0,A12,,,,
+14,I_O,0,A13,,,,
+15,I_O,0,A14,,,,
+16,I_O,0,A15,,,,
+17,INCLK2,1,,*,LVCMOS18,Input,LPC_CLK
+18,I_O,1,B0,*,LVCMOS18,Input,LPC_RST
+19,I_O,1,B1,*,LVCMOS18,Bidir,LPC_LAD_2_
+20,I_O,1,B2,*,LVCMOS18,Bidir,LPC_LAD_3_
+21,I_O,1,B3,*,LVCMOS18,Bidir,LPC_LAD_1_
+22,I_O,1,B4,*,LVCMOS18,Bidir,LPC_LAD_0_
+23,TMS,-,,,,,
+24,I_O,1,B5,,,,
+25,I_O,1,B6,,,,
+26,I_O,1,B7,,,,
+27,GNDIO1,-,,,,,
+28,VCCIO1,-,,,,,
+29,I_O,1,B8,,,,
+30,I_O,1,B9,,,,
+31,I_O,1,B10,,,,
+32,TDO,-,,,,,
+33,VCC,-,,,,,
+34,GND,-,,,,,
+35,I_O,1,B12,,,,
+36,I_O,1,B13,,,,
+37,I_O,1,B14,,,,
+38,I_O/OE,1,B15,,,,
+39,INCLK0,0,,,,,
+40,I_O/OE,0,A0,,,,
+41,I_O,0,A1,,,,
+42,I_O,0,A2,,,,
+43,I_O,0,A3,*,LVCMOS18,Output,LCD_CONTRAST
+44,I_O,0,A4,*,LVCMOS18,Output,LCD_RS

@@ -1,0 +1,142 @@
+
+[Device]
+Family = lc4k;
+PartNumber = LC4032V-75T44I;
+Package = 44TQFP;
+PartType = LC4032V;
+Speed = -7.5;
+Operating_condition = IND;
+Status = Production;
+EN_PinGLB = yes;
+EN_PinMacrocell = yes;
+
+[Revision]
+Parent = lc4k32v.lci;
+DATE = 01/21/2020;
+TIME = 10:06:40;
+Source_Format = Pure_VHDL;
+Synthesis = Synplify;
+
+[Ignore Assignments]
+
+[Clear Assignments]
+
+[Backannotate Assignments]
+
+[Global Constraints]
+
+[Location Assignments]
+layer = OFF;
+LPC_CLK = Pin, 17, -, -, -;
+LPC_RST = Pin, 18, -, B, 0;
+LCD_CONTRAST = Pin, 43, -, A, 3;
+LCD_DATA_0_ = Pin, 4, -, A, 7;
+LCD_DATA_1_ = Pin, 7, -, A, 8;
+LCD_DATA_2_ = Pin, 8, -, A, 9;
+LCD_DATA_3_ = Pin, 9, -, A, 10;
+LCD_E = Pin, 3, -, A, 6;
+LCD_RS = Pin, 44, -, A, 4;
+LPC_LAD_0_ = Pin, 22, -, B, 4;
+LPC_LAD_1_ = Pin, 21, -, B, 3;
+LPC_LAD_2_ = Pin, 19, -, B, 1;
+LPC_LAD_3_ = Pin, 20, -, B, 2;
+
+[Group Assignments]
+layer = OFF;
+
+[Resource Reservations]
+layer = OFF;
+
+[Fitter Report Format]
+
+[Power]
+
+[Source Constraint Option]
+
+[Fast Bypass]
+
+[OSM Bypass]
+
+[Input Registers]
+
+[Netlist/Delay Format]
+NetList = VHDL;
+
+[IO Types]
+layer = OFF;
+
+[Pullup]
+
+[Slewrate]
+
+[Region]
+
+[Timing Constraints]
+layer = OFF;
+
+[HSI Attributes]
+
+[Input Delay]
+
+[opt global constraints list]
+
+[Explorer User Settings]
+
+[Pin attributes list]
+
+[global constraints list]
+
+[Global Constraints Process Update]
+
+[pin lock limitation]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[RESOURCE RESERVATIONS LIST]
+
+[individual constraints list]
+
+[Attributes list setting]
+
+[Timing Analyzer]
+
+[PLL Assignments]
+
+[Dual Function Macrocell]
+
+[Explorer Results]
+
+[VHDL synplify constraints]
+
+[VHDL spectrum constraints]
+
+[verilog synplify constraints]
+
+[verilog spectrum constraints]
+
+[VHDL synplify constraints list]
+
+[VHDL spectrum constraints list]
+
+[verilog synplify constraints list]
+
+[verilog spectrum constraints list]
+
+[ORP Bypass]
+
+[Register Powerup]
+
+[Constraint Version]
+version = 1.0;
+
+[ORP ASSIGNMENTS]
+layer = OFF;
+
+[Node attribute]
+layer = OFF;
+
+[SYMBOL/MODULE attribute]
+layer = OFF;
+
+[Nodal Constraints]
+layer = OFF;
