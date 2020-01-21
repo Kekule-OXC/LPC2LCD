@@ -1,8 +1,0 @@
-"Part";"Value";"Device";"Package";"Description";"DESCRIPTION";"HEIGHT";"MANUFACTURER_NAME";"MANUFACTURER_PART_NUMBER";"MF";"MOUSER_PART_NUMBER";"MOUSER_PRICE-STOCK";"MPN";"OC_FARNELL";"OC_NEWARK";"POPULARITY";
-"IC1";"LC4032V-75TN44C";"LC4032V-75TN44C";"QFP80P1200X1200X120-44N";"LC4032V-75TN44C, CPLD ispMACH 4000V EEPROM 32 Cells, 30 I/O, 36 Labs, 7.5ns, ISP, 3  3.6 V 44-Pin TQFP";"LC4032V-75TN44C, CPLD ispMACH 4000V EEPROM 32 Cells, 30 I/O, 36 Labs, 7.5ns, ISP, 3  3.6 V 44-Pin TQFP";"1.2mm";"Lattice Semiconductor";"LC4032V-75TN44C";"";"842-LC4032V75TN44C";"https://www.mouser.com/Search/Refine.aspx?Keyword=842-LC4032V75TN44C";"";"";"";"";
-"JP1";"";"PINHD-1X6B";"1X06-BIG";"PIN HEADER";"";"";"";"";"";"";"";"";"";"";"";
-"JP2";"";"PINHD-1X12";"1X12";"PIN HEADER";"";"";"";"";"";"";"";"";"";"";"";
-"LED1";"";"LEDCHIPLED_0805";"CHIPLED_0805";"LED";"";"";"";"";"";"";"";"";"";"";"";
-"LPC";"";"MA06-2";"MA06-2";"PIN HEADER";"";"";"";"";"";"";"";"";"unknown";"unknown";"8";
-"R1";"";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";"";"";"";
-"R2";"TC33X-2-302E";"TC33X-2-302E";"TC33X-2";"Trimmer Resistors - SMD 3MM 3KOHMS 25% 0.1WATT OPEN FRM";"Trimmer Resistors - SMD 3MM 3KOHMS 25% 0.1WATT OPEN FRM";"mm";"Bourns";"TC33X-2-302E";"";"652-TC33X-2-302E";"https://www.mouser.com/Search/Refine.aspx?Keyword=652-TC33X-2-302E";"";"";"";"";
