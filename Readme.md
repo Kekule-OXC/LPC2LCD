@@ -2,7 +2,7 @@
 # LPC2LCD
 ![top of PCB](images/LPC2LCD_top.PNG)![bottom of PCB](images/LPC2LCD_bottom.PNG)
 
-This is a custom board that implements the [AladdinLPC](https://github.com/Ryzee119/AladdinLCD) code written by Ryzee119 Ideally. gerbers are available [here](LPC2LCD_v1_gerbers.zip)
+This is a custom board that implements the [AladdinLPC](https://github.com/Ryzee119/AladdinLCD) code written by Ryzee119 Ideally. gerbers are available [here](eagle/LPC2LCD_v1_gerbers.zip)
 
 This VHDL was writtenby Ryzee119 to replace the CPLD logic on the cheap AladdinXT 4032 Original Xbox modchip.  This is best used with a TSOP flashed console. Soft modded functionality unverified.
 
