@@ -2,12 +2,13 @@
 # LPC2LCD
 ![top of PCB](images/LPC2LCD_top.PNG)![bottom of PCB](images/LPC2LCD_bottom.PNG)
 
-This is a custom board that implements the [AladdinLPC](https://github.com/Ryzee119/AladdinLCD) code written by Ryzee119 Ideally. gerbers are available [here](eagle/LPC2LCD_v1_gerbers.zip)
+This is a custom board that implements the [AladdinLPC](https://github.com/Ryzee119/AladdinLCD) code written by Ryzee119. Gerbers are available [here](eagle/LPC2LCD_v1_gerbers.zip), and all Eagle design files can be found in the eagle directory
 
-This VHDL was writtenby Ryzee119 to replace the CPLD logic on the cheap AladdinXT 4032 Original Xbox modchip.  This is best used with a TSOP flashed console. Soft modded functionality unverified.
+This VHDL was writtenby Ryzee119 to replace the CPLD logic on the cheap AladdinXT 4032 Original Xbox modchip.  The pins have been remapped though to allow a cleaner layout on the PCB.  This is best used with a TSOP flashed console. Soft modded functionality unverified.
 
 The Lattice LC4032V CPLD  is extremely limited, so this is a bare minimum to reduce macro-cell usage to fit onto the CPLD. Therefore it will not support any other functionality.
 
+-   This is **NOT** a modchip.
 -   This does not support adjusting the backlight via the dashboard settings.
 -   This has no contrast control through the dashboard settings. Use the on board trim pot to set the desired contrast.
 
@@ -15,7 +16,7 @@ The Lattice LC4032V CPLD  is extremely limited, so this is a bare minimum to red
 
 1.  Connect a JTAG programmer to the JTAG pins.
     
-2.  Make sure to apply 3.3V power to the LPC2PCB board. This can be done by plugging it into the LPC port on the Xbox, an external power supply, or a JTAG programmer that can supply power.  A modified Lattice USB programmer or FlashCat are two examples of programmers that can supply power.
+2.  Make sure to apply 3.3V power to the LPC2PCB board. This can be done by plugging it into the LPC port on the Xbox, an external power supply, or a JTAG programmer that can supply power.  A modified Lattice USB programmer clone or FlashCat are two examples of programmers that can supply power.
     
 3.  Program the CPLD with the  `SVF`  file in this repository . It can be programmed with  [UrJTAG](http://urjtag.org/)  using a  [compatible programming cable](http://urjtag.org/book/_system_requirements.html#_supported_jtag_adapters_cables). The general programming sequence in UrJTAG is something like: (Commands written in  **bold**).
     
@@ -27,7 +28,7 @@ The Lattice LC4032V CPLD  is extremely limited, so this is a bare minimum to red
     
 5.  Remove the flash memory and socket from the Aladdin Chip to expose the required usable IO pads. Be careful not too damage the pads.
     
-6.  Wire the LCD as per the diagram below.
+6.  Wire the LCD.
     
 7.  Install onto the LPC header in your Xbox. There is no other connections to worry about.  _If you have a 1.6 motherboard you will need to rebuild the LPC as you would for a modchip install.  **Don't**  ground any D0 points etc._
     
